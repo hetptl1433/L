@@ -4346,7 +4346,7 @@ div[class*="box-flat"].box-flat-alt hr {
 .feature .fbox-photo.imagebg img {
   display: none;
 }
-.feature .fbox-photo::after {
+/* .feature .fbox-photo::after {
   content: "";
   position: absolute;
   top: 0;
@@ -4357,9 +4357,15 @@ div[class*="box-flat"].box-flat-alt hr {
   opacity: 0;
   z-index: 0;
   transition: opacity 0.5s;
-}
+} */
 .feature > a {
   display: block;
+}
+.baleno{
+  border: 2px solid #cecbcb;
+}
+.alto{
+  margin-top: 18px !important;
 }
 .feature a:focus > .fbox-photo::after,
 .feature a:hover > .fbox-photo::after {
